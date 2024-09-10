@@ -1,9 +1,26 @@
 # Health Center Dashboards
 
-For this project I created two dashboards. The first providing an overview of the HRSA Health Center Program at the national level including several graphs relating to the national patient population as well as a map of all health center sites across the country.
-https://public.tableau.com/views/HRSAHealthCenterProgram-NationalOverview/Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+**Objective:** Design two dashboards to visualize health center data at both the national and individual health center levels.
 
-<div class='tableauPlaceholder' id='viz1725998174115' style='position: relative'><noscript><a href='#'><img alt='2019-2023 Health Centers Overview ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HR&#47;HRSAHealthCenterProgram-NationalOverview&#47;Overview&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HRSAHealthCenterProgram-NationalOverview&#47;Overview' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HR&#47;HRSAHealthCenterProgram-NationalOverview&#47;Overview&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1725998174115');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1400px';vizElement.style.height='927px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+**Data:** 2018-2023 Uniform Data System dataset (from the [HRSA website](data.HRSA.gov))
 
-The second dashboard provides a similar overview, but at the individual health center level, allowing the viewer to select one health center and view data relating to that specific organization.
-https://public.tableau.com/views/HRSAHealthCenterProgram-HealthCenterOverviewInteractive/HealthCenterOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+**Tools:** Tableau
+
+## Summary
+In this data visualization project, I created two dashboards. The first provides an overview of the HRSA health center program at the national level, featuring graphs on the national patient population and a map of all health center sites across the U.S. The second dashboard offers a detailed view at the individual health center level, allowing users to select a specific health center and view data relevant to that organization.
+
+## Dataset
+The Health Resources and Services Administration (HRSA) oversees the national health center program, which includes 1,496 health centers serving 32.5 million patients across the U.S. In overseeing this program, HRSA collects financial and clinical data from health centers via the annual Uniform Data System (UDS) report, much of which is publicly available.
+
+**Note:** For this project, I utilized UDS data that I previously prepared for analysis in a SQL database. To see how the data was prepared, you can view my full SQL project [here](https://github.com/tyler-dardis/Health-Center-Data-ELT).
+
+## National Program Dashboard
+The full dashboard can be viewed [here](https://public.tableau.com/views/HRSAHealthCenterProgram-NationalOverview/Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+
+![HRSA Health Center Program - National Overview](https://github.com/user-attachments/assets/0090e9fa-e8d9-423c-ae8f-e50c8bdbd511)
+
+
+## Health Center Dashboard (Interactive)
+The full dashboard can be viewed [here](https://public.tableau.com/views/HRSAHealthCenterProgram-HealthCenterOverviewInteractive/HealthCenterOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+![HRSA Health Center Program - Health Center Overview (Interactive)](https://github.com/user-attachments/assets/6d89ccb2-5ea1-49c5-8f11-ec080d790471)
